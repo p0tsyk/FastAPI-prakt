@@ -1,0 +1,10 @@
+[project]
+name = "fastapiprac"
+version = "0.1.0"
+description = "First FastAPI application"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.162.5",
+    "pydantic>=2.14.3",
+    "uvicorn>=0.54.0",
+]
